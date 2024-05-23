@@ -76,5 +76,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="src\core\commands\infections\" />
+    <Folder Include="src\core\commands\population\" />
+    <Folder Include="src\core\commands\salaries\" />
+    <Folder Include="src\core\presenter\" />
+    <Folder Include="src\view\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
